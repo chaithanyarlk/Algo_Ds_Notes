@@ -39,7 +39,7 @@ def Shaker_Sort(arr):
 
 #arr=[2, 10, 8, 1, 4, 1]
 #sample input this can be extended over user inputs even
-arr=list()
+arr = list()
 arr = list(map(int,input("Enter array: ").strip().split(',')))
 Shaker_Sort(arr)
 print("After Shaker_Sort the list :")
