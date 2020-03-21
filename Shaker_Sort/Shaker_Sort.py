@@ -29,6 +29,7 @@ def Shaker_Sort(arr) :
                 swapped = True
         # Now the smallest element will be in it's correct place in the list
         begin = begin + 1
+
 # Driver Code
 arr = list(map(int,input("Enter Array : ").stript().split(',')))
 Shaker_Sort(arr)
@@ -36,5 +37,6 @@ Shaker_Sort(arr)
 print (" After Shaker_Sort the Array : ")
 for i in range (0, len(arr), 1) :
     print (arr[i], end = " ")
+    
 # Sample input arr = [2, 10, 8, 1, 4, 1]
 # Output 1 1 2 4 8 10
